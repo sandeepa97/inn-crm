@@ -18,3 +18,6 @@ Route::get('/', [WebController::class, 'index']);
 Route::get('/about-us', [WebController::class, 'about']);
 Route::get('/services', [WebController::class, 'services']);
 Route::get('/rooms', [WebController::class, 'rooms']);
+Route::get('/booking', [WebController::class, 'booking']);
+Route::get('/gallery', [WebController::class, 'gallery']); //under construction
+Route::get('/contact', [WebController::class, 'contact']);

@@ -16,10 +16,10 @@
                                     </div>
                                 </div>
                                 <a href="{{url('/booking')}}" class="nav-item nav-link">Booking</a>
-                                <a href="{{url('/blog')}}" class="nav-item nav-link">Blog</a>
-                                <a href="contact.html" class="nav-item nav-link">Contact</a>
+                                <a href="{{url('/gallery')}}" class="nav-item nav-link">Gallery</a>
+                                <a href="{{url('/contact')}}" class="nav-item nav-link">Contact</a>
                             </div>
-                            <a href="https://htmlcodex.com/hotel-html-template-pro" class="btn btn-primary rounded-0 py-4 px-md-5 d-none d-lg-block">Premium Version<i class="fa fa-arrow-right ms-3"></i></a>
+                            <a href="" class="btn btn-primary rounded-0 py-4 px-md-5 d-none d-lg-block">User Login<i class="fa fa-arrow-right ms-3"></i></a>
                         </div>
                     </nav>
                 </div>
@@ -33,13 +33,6 @@
             <div class="container-fluid page-header-inner py-5">
                 <div class="container text-center pb-5">
                     <h1 class="display-3 text-white mb-3 animated slideInDown">About Us</h1>
-                    <nav aria-label="breadcrumb">
-                        <ol class="breadcrumb justify-content-center text-uppercase">
-                            <li class="breadcrumb-item"><a href="#">Home</a></li>
-                            <li class="breadcrumb-item"><a href="#">Pages</a></li>
-                            <li class="breadcrumb-item text-white active" aria-current="page">About</li>
-                        </ol>
-                    </nav>
                 </div>
             </div>
         </div>

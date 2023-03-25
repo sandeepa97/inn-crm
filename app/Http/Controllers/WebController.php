@@ -22,4 +22,16 @@ class WebController extends Controller
     public function rooms() {
         return view('website.rooms');
     }
+
+    public function booking() {
+        return view('website.booking');
+    }
+
+    public function gallery() {
+        return view('website.gallery');
+    }
+
+    public function contact() {
+        return view('website.contact');
+    }
 }
