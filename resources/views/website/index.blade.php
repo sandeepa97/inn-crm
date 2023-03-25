@@ -7,7 +7,7 @@
                                 <a href="{{url('/about-us')}}" class="nav-item nav-link">About</a>
                                 <a href="{{url('/services')}}" class="nav-item nav-link">Services</a>
                                 <div class="nav-item dropdown">
-                                    <a href="{{url('/rooms')}}" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Rooms</a>
+                                    <a href="{{url('/rooms')}}" class="nav-item nav-link">Rooms</a>
                                     <div class="dropdown-menu rounded-0 m-0">
                                         <a href="{{url('/king-bed')}}" class="dropdown-item">Standard King</a>
                                         <a href="{{url('/queen-bed')}}" class="dropdown-item">Queen Sized</a>

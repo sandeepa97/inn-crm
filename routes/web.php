@@ -16,3 +16,5 @@ use App\Http\Controllers\WebController;
 
 Route::get('/', [WebController::class, 'index']);
 Route::get('/about-us', [WebController::class, 'about']);
+Route::get('/services', [WebController::class, 'services']);
+Route::get('/rooms', [WebController::class, 'rooms']);

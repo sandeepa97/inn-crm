@@ -14,4 +14,12 @@ class WebController extends Controller
     public function about() {
         return view('website.about');
     }
+
+    public function services() {
+        return view('website.services');
+    }
+
+    public function rooms() {
+        return view('website.rooms');
+    }
 }
