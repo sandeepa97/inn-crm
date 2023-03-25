@@ -15,3 +15,4 @@ use App\Http\Controllers\WebController;
 */
 
 Route::get('/', [WebController::class, 'index']);
+Route::get('/about-us', [WebController::class, 'about']);
