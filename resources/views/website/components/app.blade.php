@@ -106,7 +106,7 @@
         <div class="row g-5">
             <div class="col-md-6 col-lg-4">
                 <div class="bg-primary rounded p-4">
-                    <a href="index.html"><h1 class="text-white text-uppercase mb-3">Inn CRM</h1></a>
+                    <a href="{{url('/')}}"><h1 class="text-white text-uppercase mb-3">Inn CRM</h1></a>
                     <p class="text-white mb-0">
                         Inn CRM , build a professional website for your hotel business and grab the attention of new visitors upon your site’s launch.
                     </p>
@@ -151,7 +151,7 @@
             <div class="row">
                 <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
                     &copy; <a class="border-bottom" href="{{url('/')}}">INN-CRM</a>, All Right Reserved. 
-                    Designed By <a class="border-bottom" href="https://sandeepa.net" target="_blank">LOKU</a>
+                    Designed By <a class="border-bottom" href="https://sandeepa.net" target="_blank">LOKUSOFT</a>
                 </div>
                 <div class="col-md-6 text-center text-md-end">
                     <div class="footer-menu">
