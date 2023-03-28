@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\WebController;
+use App\Http\Controllers\DashboardController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,6 +15,7 @@ use App\Http\Controllers\WebController;
 |
 */
 
+//Website routes
 Route::get('/', [WebController::class, 'index']);
 Route::get('/about-us', [WebController::class, 'about']);
 Route::get('/services', [WebController::class, 'services']);
@@ -21,3 +23,6 @@ Route::get('/rooms', [WebController::class, 'rooms']);
 Route::get('/booking', [WebController::class, 'booking']);
 Route::get('/gallery', [WebController::class, 'gallery']); //under construction
 Route::get('/contact', [WebController::class, 'contact']);
+
+//Admin Dashboard routes
+Route::get('/admin', [DashboardController::class, 'index']);
