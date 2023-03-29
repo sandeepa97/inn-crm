@@ -34,4 +34,16 @@ class WebController extends Controller
     public function contact() {
         return view('website.contact');
     }
+
+    public function loginForm() {
+        return view('website.auth.login');
+    }
+
+    public function forgotPassword() {
+        return view('website.auth.forgot-password');
+    }
+
+    public function recoverPassword() {
+        return view('website.auth.recover-password');
+    }
 }

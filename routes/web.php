@@ -21,8 +21,12 @@ Route::get('/about-us', [WebController::class, 'about']);
 Route::get('/services', [WebController::class, 'services']);
 Route::get('/rooms', [WebController::class, 'rooms']);
 Route::get('/booking', [WebController::class, 'booking']);
-Route::get('/gallery', [WebController::class, 'gallery']); //under construction
+Route::get('/gallery', [WebController::class, 'gallery']);
 Route::get('/contact', [WebController::class, 'contact']);
+
+Route::get('/user-login', [WebController::class, 'loginForm']);
+Route::get('/user-forgot-password', [WebController::class, 'forgotPassword']);
+Route::get('/user-recover-password', [WebController::class, 'recoverPassword']);
 
 //Admin Dashboard routes
 Route::get('/admin', [DashboardController::class, 'index']);
