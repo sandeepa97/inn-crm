@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\WebController;
 use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\AuthController;
 
 /*
 |--------------------------------------------------------------------------
@@ -24,9 +25,12 @@ Route::get('/booking', [WebController::class, 'booking']);
 Route::get('/gallery', [WebController::class, 'gallery']);
 Route::get('/contact', [WebController::class, 'contact']);
 
+//User Authentication
 Route::get('/user-login', [WebController::class, 'loginForm']);
 Route::get('/user-forgot-password', [WebController::class, 'forgotPassword']);
 Route::get('/user-recover-password', [WebController::class, 'recoverPassword']);
+Route::post('/post-login', [AuthController::class, 'postLogin']);
+Route::get('/logout', [AuthController::class, 'logout']);
 
 //Admin Dashboard routes
-Route::get('/admin', [DashboardController::class, 'index']);
+Route::get('/system', [DashboardController::class, 'index']);
