@@ -13,7 +13,7 @@
       <form action="{{ url('/post-login') }}" method="POST">
         @csrf
         <div class="input-group mb-3">
-          <input type="text" class="form-control" placeholder="Username" name="username">
+          <input type="text" class="form-control" placeholder="Username" name="username" required>
           @if ($errors->has('username'))
             <span class="text-danger">{{ $errors->first('username') }}</span>
           @endif
@@ -24,7 +24,7 @@
           </div>
         </div>
         <div class="input-group mb-3">
-          <input type="password" class="form-control" placeholder="Password" name="password">
+          <input type="password" class="form-control" placeholder="Password" name="password" required>
           @if ($errors->has('password'))
             <span class="text-danger">{{ $errors->first('password') }}</span>
           @endif
