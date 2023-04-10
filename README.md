@@ -2,7 +2,7 @@
 
 - Build using Laravel Framework.
 - Simple, fast routing Application.
-- Sigma Level Project.
+- Alpha Level Project.
 - [Author : Sandeepa Loku](http://sandeepa.net).
 
 ## www.sandeepa.net
