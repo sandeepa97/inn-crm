@@ -54,12 +54,12 @@
         </p>
     </a>
     </li>
-    <li class="nav-header">Header 2</li>
+    <li class="nav-header">Internal Functions</li>
     <li class="nav-item">
     <a href="#" class="nav-link">
         <i class="nav-icon fas fa-search"></i>
         <p>
-        Function 2
+        Employee
         <i class="fas fa-angle-left right"></i>
         </p>
     </a>
@@ -67,16 +67,62 @@
         <li class="nav-item">
         <a href="pages/search/simple.html" class="nav-link">
             <i class="far fa-circle nav-icon"></i>
-            <p>Simple Search</p>
+            <p>Employee Search</p>
         </a>
         </li>
         <li class="nav-item">
         <a href="pages/search/enhanced.html" class="nav-link">
             <i class="far fa-circle nav-icon"></i>
-            <p>Enhanced</p>
+            <p>Add New Employee</p>
         </a>
         </li>
     </ul>
+    </li>
+    <li class="nav-item">
+    <a href="#" class="nav-link">
+        <i class="nav-icon fas fa-search"></i>
+        <p>
+        Attendance
+        <i class="fas fa-angle-left right"></i>
+        </p>
+    </a>
+    </li>
+    <li class="nav-item">
+    <a href="#" class="nav-link">
+        <i class="nav-icon fas fa-search"></i>
+        <p>
+        Payroll
+        <i class="fas fa-angle-left right"></i>
+        </p>
+    </a>
+    </li>
+    <li class="nav-item">
+    <a href="#" class="nav-link">
+        <i class="nav-icon fas fa-search"></i>
+        <p>
+        Management Reports
+        <i class="fas fa-angle-left right"></i>
+        </p>
+    </a>
+    </li>
+    <li class="nav-header">Website</li>
+    <li class="nav-item">
+    <a href="#" class="nav-link">
+        <i class="nav-icon fas fa-search"></i>
+        <p>
+        Room Rates
+        <i class="fas fa-angle-left right"></i>
+        </p>
+    </a>
+    </li>
+    <li class="nav-item">
+    <a href="#" class="nav-link">
+        <i class="nav-icon fas fa-search"></i>
+        <p>
+        Offers
+        <i class="fas fa-angle-left right"></i>
+        </p>
+    </a>
     </li>
 </ul>
 </nav>
