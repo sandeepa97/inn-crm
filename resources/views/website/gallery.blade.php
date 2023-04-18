@@ -19,7 +19,7 @@
                                 <a href="{{url('/gallery')}}" class="nav-item nav-link active">Gallery</a>
                                 <a href="{{url('/contact')}}" class="nav-item nav-link">Contact</a>
                             </div>
-                            <a href="" class="btn btn-primary rounded-0 py-4 px-md-5 d-none d-lg-block">User Login<i class="fa fa-arrow-right ms-3"></i></a>
+                            <a href="{{url('/user-login')}}" class="btn btn-primary rounded-0 py-4 px-md-5 d-none d-lg-block">User Login<i class="fa fa-arrow-right ms-3"></i></a>
                         </div>
                     </nav>
                 </div>
