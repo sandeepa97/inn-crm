@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\WebController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\AuthController;
+use App\Http\Controllers\CustomerController;
 
 /*
 |--------------------------------------------------------------------------
@@ -34,3 +35,6 @@ Route::get('/logout', [AuthController::class, 'logout']);
 
 //Admin Dashboard routes
 Route::get('/system', [DashboardController::class, 'index']);
+
+//Customer Module
+Route::get('customer', [CustomerController::class, 'index']);
