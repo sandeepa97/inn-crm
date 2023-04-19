@@ -14,7 +14,7 @@
     </a>
     <ul class="nav nav-treeview">
         <li class="nav-item">
-        <a href="pages/search/simple.html" class="nav-link">
+        <a href="{{url('customer')}}" class="nav-link">
             <i class="far fa-circle nav-icon"></i>
             <p>Customer Search</p>
         </a>
