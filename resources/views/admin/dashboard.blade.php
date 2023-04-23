@@ -62,7 +62,7 @@
           <div class="inner">
             <h3>44</h3>
 
-            <p>Customers</p>
+            <p>Today Customers</p>
           </div>
           <div class="icon">
             <i class="ion ion-person-add"></i>
@@ -141,7 +141,7 @@
           <div class="inner">
             <h3>65</h3>
 
-            <p>Unique Visitors</p>
+            <p>Customer</p>
           </div>
           <div class="icon">
             <i class="ion ion-pie-graph"></i>
