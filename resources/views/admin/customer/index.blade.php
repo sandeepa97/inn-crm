@@ -24,7 +24,7 @@
 <!-- Main content -->
 <section class="content bg-white">
 
-<table class='table table-bordered table-hover'>
+<table id="customer-table" class='table table-bordered table-hover'>
     <thead>
         <tr>
             <th>#</th>
@@ -43,11 +43,17 @@
     </thead>
     <tbody>
 
+@php
+
+$i = 0;
+
+@endphp
+
         @foreach ($customers as $customer)
 
 @php
 
-$i = 1;
+$i++;
 $customerId = sprintf('%06d', $customer->id);
 
 $activeStatus = 'A';
@@ -59,7 +65,7 @@ if($customer->disabled == 't') {
 @endphp
 
         <tr>
-           <td>@php echo $i; $i++ @endphp</td>
+           <td>{{$i}}</td>
            <td>{{$customerId}}</td>
            <td>{{$customer->saluation}} {{$customer->first_name}} {{$customer->last_name}}</td> 
            <td>{{$customer->nic}}</td>
@@ -80,4 +86,14 @@ if($customer->disabled == 't') {
 
 </section>
 <!-- /.content -->
-  @endsection
+@endsection
+
+<script>
+  $(function () {
+    $("#customer-table").DataTable({
+      "responsive": true, "lengthChange": false, "autoWidth": false,
+      "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
+    }).buttons().container().appendTo('#customer-table .col-md-6:eq(0)');
+  });
+</script>
+

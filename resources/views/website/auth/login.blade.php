@@ -8,7 +8,12 @@
       <a href="{{url('/')}}" class="h1"><b>INN</b> - CRM</a>
     </div>
     <div class="card-body">
+
+      @if(session('success'))
+      <p class="login-box-msg text-danger">{{session('success')}}</p>
+      @else
       <p class="login-box-msg">Sign in to start your session</p>
+      @endif
 
       <form action="{{ url('/post-login') }}" method="POST">
         @csrf
