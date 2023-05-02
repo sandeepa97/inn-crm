@@ -7,5 +7,4 @@
 - Alpha Level Project.
 - [Author : Sandeepa Loku](http://sandeepa.net).
 
-
 ## www.sandeepa.net
